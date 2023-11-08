@@ -1,7 +1,7 @@
 /* Default styles for all screens */
 #webTitle {
     font-family: "Papyrus", fantasy;
-    font-size: 30px;
+    font-size: 36px;
     margin-top: 0px;
     padding-top: 9px;
 }
@@ -37,8 +37,12 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+    padding: 10px 25px;
+    background-color: #333;
     color: #fff;
-    display: block; /* Make links take up the full width for better touch interaction */
+    border: 1px solid #333;
+    border-radius: 10px;
+    font-size: 18px; /* Daha büyük yazı tipi belirleyin */
 }
 
 nav ul li a::before {
